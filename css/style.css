@@ -31,7 +31,7 @@ header{
 }
 
 
-section{
+.section1{
     background-color:#B4D0E7;
     width: 100%;
     
@@ -40,25 +40,26 @@ section{
 
 .container2{
     
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    
     margin: 50px auto;
 }
 
 h1{
-    font-size: 70px
+    font-size: 50px;
+   
 }
 
 .firstbox{
     height: 100%;
-    width: 50%;
+    width: 40%;
     text-align: left;
     font-size: 18px;
 }
 
 .secondbox{
     height: 100%;
-    width: 50%;
+    width: 60%;
    
 }
 
@@ -71,7 +72,7 @@ h1{
 }
 
 div.secondbox>img{
-    width: 750px;
+    width: 650px;
 }
 
 .arrow{
@@ -80,4 +81,39 @@ div.secondbox>img{
 
 .container{
     margin: 50px auto;
+    width: 50%;
+}
+
+.section2{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  
+   
+}
+
+.action{
+    margin-top: 3rem;
+}
+
+.second-radio{
+    margin-left: 3rem;
+}
+
+.container4{
+   
+    background-color: red;
+    width: 800px;
+    height: 1000px;
+    margin-top: 3rem;
+}
+
+.colonna{
+    width: 30%;
+    height: 90%;
+    background-color: yellow;
+}
+
+.container3{
+  margin-left: 25rem;
 }
