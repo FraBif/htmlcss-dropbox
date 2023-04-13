@@ -38,8 +38,8 @@ section{
     text-align: center;
 }
 
-.container{
-    background-color: red;
+.container2{
+    
     width: 600px;
     height: 300px;
     margin: 50px auto;
@@ -52,16 +52,32 @@ h1{
 .firstbox{
     height: 100%;
     width: 50%;
-    background-color: blueviolet;
     text-align: left;
+    font-size: 18px;
 }
 
 .secondbox{
     height: 100%;
     width: 50%;
-    background-color: rgb(226, 171, 43);
+   
 }
 
 .column{
     flex-direction: column;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+div.secondbox>img{
+    width: 750px;
+}
+
+.arrow{
+    font-size: 60px;
+}
+
+.container{
+    margin: 50px auto;
 }
