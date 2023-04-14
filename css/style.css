@@ -28,26 +28,23 @@ header{
     background-color: blue;
     color: white;
     padding: .2rem;
+    text-align: center;
 }
 
 
 .section1{
     background-color:#B4D0E7;
     width: 100%;
-    
     text-align: center;
 }
 
 .container2{
-    
     width: 100%;
-    
     margin: 50px auto;
 }
 
 h1{
     font-size: 50px;
-   
 }
 
 .firstbox{
@@ -60,7 +57,6 @@ h1{
 .secondbox{
     height: 100%;
     width: 60%;
-   
 }
 
 .column{
@@ -88,8 +84,6 @@ div.secondbox>img{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-  
-   
 }
 
 .action{
@@ -101,8 +95,6 @@ div.secondbox>img{
 }
 
 .container4{
-   
-    background-color: red;
     width: 800px;
     height: 1000px;
     margin-top: 3rem;
@@ -110,16 +102,12 @@ div.secondbox>img{
 
 .colonna{
     width: 30%;
-    height: 90%;
-    background-color: yellow;
     border: lightgray 2px solid;
-    line-height: 3rem;
-    padding: 2rem;
-    
 }
 
 .container3{
-  margin-left: 25rem;
+  margin:0 auto;
+  max-width: 700px;
 }
 
 .tag{
@@ -135,4 +123,39 @@ div.secondbox>img{
 
 hr{
     width: 50px;
+    margin-top: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+.colonna2{
+    padding: 2rem;
+}
+
+div.colonna2>div{
+    margin-top: .7rem;
+    line-height: 2rem;
+}
+
+.subcolumn{
+    width: 800px;
+    margin-top: 3rem;
+    border: lightgray 2px solid;
+    text-align: left;
+}
+
+.subcolumn2{
+    Padding: 2rem;
+}
+    
+
+
+div.subcolumn2>h4{
+    margin-top: 1.5rem;
+}
+
+div.subcolumn2>p{
+    margin-top: 3rem;
 }
