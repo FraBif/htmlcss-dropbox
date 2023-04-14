@@ -147,9 +147,14 @@ div.colonna2>div{
 }
 
 .subcolumn2{
-    Padding: 2rem;
+    width: 70%;
 }
-    
+
+
+.absolute{
+    width: 30%;
+    align-self: flex-start;
+}
 
 
 div.subcolumn2>h4{
@@ -158,4 +163,8 @@ div.subcolumn2>h4{
 
 div.subcolumn2>p{
     margin-top: 3rem;
+}
+
+.container5{
+    padding: 2rem;
 }
