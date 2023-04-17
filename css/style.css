@@ -215,9 +215,9 @@ div.container2.flex>p{
 
 .container7{
     
-    background-color: red;
-    margin: 4rem auto;
-    text-align:center;
+    text-align: center;
+    margin: 5rem auto;
+    justify-content: center;
 }
 
 .wrap{
@@ -226,8 +226,9 @@ div.container2.flex>p{
 
 .fifthbox{
     
-    background-color: green;
-    border: 1px solid black;
+    width: 23%;
+    text-align: left;
+    
 }
 
 div.fifthbox>img{
@@ -236,4 +237,20 @@ div.fifthbox>img{
 
 .row{
     justify-content: center;
+}
+
+.row2{
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+div.fifthbox>div>p{
+    margin-top: 2rem;
+}
+
+.row3{
+    text-align: left;
+    justify-content: center;
+    align-items: flex-end;
 }
