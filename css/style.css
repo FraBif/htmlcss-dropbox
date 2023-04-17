@@ -220,3 +220,21 @@ div.container2.flex>p{
     margin: 4rem auto;
     text-align:center;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.fifthbox{
+    
+    background-color: green;
+    border: 1px solid black;
+}
+
+div.fifthbox>img{
+  width: 350px;
+}
+
+.row{
+    justify-content: center;
+}
