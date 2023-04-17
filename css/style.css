@@ -107,7 +107,7 @@ div.secondbox>img{
 
 .container3{
   margin:0 auto;
-  max-width: 700px;
+  max-width: 850px;
 }
 
 .tag{
@@ -214,7 +214,7 @@ div.container2.flex>p{
 }
 
 .container7{
-    
+    max-width: 850px;
     text-align: center;
     margin: 5rem auto;
     justify-content: center;
@@ -232,15 +232,15 @@ div.container2.flex>p{
 }
 
 div.fifthbox>img{
-  width: 350px;
+  width: 100%;
 }
 
 .row{
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .row2{
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 3rem;
 }
 
@@ -251,6 +251,12 @@ div.fifthbox>div>p{
 
 .row3{
     text-align: left;
-    justify-content: center;
-    align-items: flex-end;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.underline2{
+    text-decoration: underline;
+    color: blue;
+    margin-top: 4rem;
 }
