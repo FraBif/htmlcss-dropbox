@@ -369,22 +369,35 @@ div.seventh-box>div{
 }
 
 .eighth-box{
-    width: 850px;
+    width: 1000px;
     height: 450px;
-    background-color: #0093CE;
-    border: 1px solid black;
     margin: 140px auto;
 }
 
 .ninth-box{
     width: 100%;
     height: 87%;
-    background-color: #FFD830;
-    border: 1px solid black;
+    margin-top: 80px;
+
 }
 
 .row4{
     width: 100%;
     height: calc(100vh / 3);
-    border: black solid 1px;
+    border-top: black solid 1px;
+    
+    align-items: center;
+}
+
+div.row4>h2{
+    font-size: 20px;
+}
+
+div.row4>span{
+    font-size: 30px;
+    margin-left: 250px;
+}
+
+.border-bot{
+    border-bottom: black solid 1px;
 }
