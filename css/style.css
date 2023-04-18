@@ -199,6 +199,7 @@ div.thirdbox>img{
     width: 120px;
     padding: .3rem;
     margin-top: 3rem;
+    background-color: white;
 }
 
 div.fourthbox>p{
@@ -337,5 +338,33 @@ div.middle-card>div>p{
 }
 
 .container9{
+    height: 30%;
+    width: 50%;
+    margin: auto;
     
+}
+
+.sixth-box{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #61082B;
+}
+
+div.sixth-box>h2{
+    width: 60%;
+}
+
+.seventh-box{
+    width: 40%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+div.seventh-box>div{
+    width: 80%;
+    margin-bottom: 70px;
 }
