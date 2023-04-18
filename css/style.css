@@ -76,7 +76,7 @@ div.secondbox>img{
 }
 
 .container{
-    margin: 50px auto;
+    margin: 0px auto;
     width: 50%;
 }
 
@@ -255,8 +255,31 @@ div.fifthbox>div>p{
     margin-top: 10rem;
 }
 
-.underline2{
-    text-decoration: underline;
-    color: blue;
+div.row3>div.underline{
     margin-top: 4rem;
+}
+
+.section5{
+    width: 100%;
+    height: 700px;
+    background-color: #B4D0E7;
+}
+
+.container8{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.card{
+    width: calc(100% / 3);
+    height: 100%;
+    border: 1px black solid;
+}
+
+div.card.flex.wrap>div{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: black solid 1px;
 }
