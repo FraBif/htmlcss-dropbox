@@ -359,7 +359,6 @@ div.sixth-box>h2{
 .seventh-box{
     width: 40%;
     height: 100%;
-    
     align-items: center;
     justify-content: center;
 }
@@ -367,4 +366,25 @@ div.sixth-box>h2{
 div.seventh-box>div{
     width: 80%;
     margin-bottom: 70px;
+}
+
+.eighth-box{
+    width: 850px;
+    height: 450px;
+    background-color: #0093CE;
+    border: 1px solid black;
+    margin: 140px auto;
+}
+
+.ninth-box{
+    width: 100%;
+    height: 87%;
+    background-color: #FFD830;
+    border: 1px solid black;
+}
+
+.row4{
+    width: 100%;
+    height: calc(100vh / 3);
+    border: black solid 1px;
 }
